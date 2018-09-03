@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #cacaca;
+}
+
+.box {
+	width: 300px;
+	height: 400px;
+	background-color: #fff;
+	border: 2px solid grey;
+	padding: 20px 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	top:50%;
+	margin-top: -200px;
+}

@@ -1,0 +1,14 @@
+.button {
+ margin: 30px;
+ padding: 10px 15px;
+ height: 50px;
+ width: 150px;
+
+}
+
+/* Стили модального окна */
+
+.btn-yes, .btn-no {
+	width: 79px;
+
+}

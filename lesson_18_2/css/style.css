@@ -1,0 +1,29 @@
+body {
+	text-decoration: none;
+}
+
+.header {
+	text-align: center;
+	color: #4bccf4;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 3rem;
+}
+
+.header span {
+	font-weight: 700;
+	font-size: 2.5rem;
+}
+
+.card-header {
+	font-size: 1.45rem;
+	text-decoration: none;
+	background-color: #0bbaf0;
+	color: #fff;
+	padding: 7px 3px;
+}
+
+.btn-link, .btn-link:hover, .btn-link:active, .btn-link:focus {
+	color: #fff;
+	text-decoration: none;
+}

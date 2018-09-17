@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Табы и акордеоны</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+			<ul class="nav nav-tabs" id="myTab">
+			  <li class="nav-item">
+			    <a class="nav-link active" id="log-tab" data-toggle="tab" href="#log">Вход</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" id="reg-tab" data-toggle="tab" href="#reg">Регистрация</a>
+			  </li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="log" role="tabpanel" aria-labelledby="log-tab">
+			  	<div class="login">
+			  		<form action="#">
+			  			<input class="login-inp name" type="text" placeholder="Ваше имя">
+			  			<input class="login-inp pass" type="password" placeholder="Пароль">
+			  			<small class="think-pass text-danger">Забыли пароль?</small>
+			  			<input class="checkbox" type="checkbox">
+			  			<p class="think-me">Напомнить мне</p>
+			  			<button class="btn btn-danger form-button">Войти</button>
+			  		</form>
+			  	</div>
+			  </div>
+			  <div class="tab-pane fade" id="reg" role="tabpanel" aria-labelledby="reg-tab">
+			  	<div class="login reg">
+			  		<form action="#">
+			  			<input class="login-inp reg-inp name" type="text" placeholder="Введите имя">
+			  			<input class="login-inp reg-inp pass" type="password" placeholder=" Придумайте пароль">
+			  			<input class="login-inp reg-inp pass-povt" type="password" placeholder=" Повторите пароль">
+			  			<button class="btn btn-danger form-button form-btn-reg">Зарегистрироваться</button>
+			  		</form>
+			  	</div>
+			  </div>
+			</div>
+				
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+	background-color: #03a2d6;
+	color: #fff;
+	margin: 0;
+}
+
+.login {
+	border: 10px solid #03a2d6;
+	border-radius: 5px;
+	width: 30%;
+	height: 50%;
+	background-color: #000;
+	padding: 2rem;
+	position: relative;
+	margin: 0;
+}
+
+.login-inp {
+	padding: 0.5rem;
+	display: block;
+	width: 100%;
+	margin-top: 2rem;
+	font-size: 1rem;
+	background-color: #1c1b1b;
+	color: #fff;
+	border: 1px solid #1c1b1b;
+	border-radius: 3px;
+}
+
+.name {
+	margin-top: 25px;
+}
+
+.think-pass{
+	display: block;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.checkbox {
+	display: inline-block;
+	margin-top: 1.9rem;
+	margin-left: 10px;
+}
+
+.think-me {
+	display: inline-block;
+	color: #6f6f6d;
+	margin-left: 5px;
+}
+
+.form-button {
+	display: inline-block;
+	text-align: right;
+	position: relative;
+	left: 40%;
+	font-size: 1.2rem;
+	color: #fff;
+	border-radius: 0;
+	padding: 5px 30px;
+	background: linear-gradient(to right, #8b0a01, #c62003, #8b0a01);
+
+	border: none;
+	box-shadow: 0 -2px 0px #800501;
+}
+
+.form-btn-reg {
+	padding: 3px 25px;
+	font-size: 1rem;
+	left: 60%;
+	display: inline-block;
+}
+
+.reg .pass-povt {
+	margin-bottom: 30px;
+}
+
+
+/* Animation */
+@keyframes move {
+	from {
+		margin-left: 0;
+	}
+	to {
+		margin-left: 400px;
+	}
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}

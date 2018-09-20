@@ -46,3 +46,5 @@
 [Урок №18.2](https://vdudash36.github.io/lesson_18_2/ "Моя готовая домашка") - Акордеоны
 
 [Практика. Часть 6](https://vdudash36.github.io/practic_part_6/ "Моя готовая домашка") - Верстка блока с ценами
+
+[Урок №19](https://vdudash36.github.io/lesson_19/ "Моя готовая домашка") - Анимация на CSS3

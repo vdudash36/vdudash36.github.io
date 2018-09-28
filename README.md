@@ -55,3 +55,5 @@
 
 [Практика. Часть 8](https://vdudash36.github.io/practic_part_8/ "Моя готовая домашка") - Доверстали блок с отзывами
 
+[Урок №21](https://vdudash36.github.io/lesson_21/ "Моя готовая домашка") - Parallax эффект для сайта
+
